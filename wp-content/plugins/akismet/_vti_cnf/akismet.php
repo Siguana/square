@@ -1,0 +1,16 @@
+vti_encoding:SR|utf8-nl
+vti_timelastmodified:TR|11 May 2015 07:09:18 -0000
+vti_extenderversion:SR|12.0.0.0
+vti_author:SR|jafnote1\\jafnote
+vti_modifiedby:SR|jafnote1\\jafnote
+vti_timecreated:TR|11 May 2015 07:09:18 -0000
+vti_cacheddtm:TX|11 May 2015 07:09:18 -0000
+vti_filesize:IR|45884
+vti_cachedlinkinfo:VX|S|< A|< H|edit-comments.php A|< A|< H|http://ws.arin.net/cgi-bin/whois.pl H|< A|< H|http://akismet.com S|< S|< H|http://akismet.com
+vti_cachedsvcrellinks:VX|DSUS|jafnet.co.jp/wordpress/wp-content/plugins/akismet/< DAUS|jafnet.co.jp/wordpress/wp-content/plugins/akismet/< NHUS|jafnet.co.jp/wordpress/wp-content/plugins/akismet/edit-comments.php DAUS|jafnet.co.jp/wordpress/wp-content/plugins/akismet/< DAUS|jafnet.co.jp/wordpress/wp-content/plugins/akismet/< NHHS|http://ws.arin.net/cgi-bin/whois.pl DHUS|jafnet.co.jp/wordpress/wp-content/plugins/akismet/< DAUS|jafnet.co.jp/wordpress/wp-content/plugins/akismet/< NHHS|http://akismet.com DSUS|jafnet.co.jp/wordpress/wp-content/plugins/akismet/< DSUS|jafnet.co.jp/wordpress/wp-content/plugins/akismet/< NHHS|http://akismet.com
+vti_cachedneedsrewrite:BR|false
+vti_cachedhasbots:BR|false
+vti_cachedhastheme:BR|false
+vti_cachedhasborder:BR|false
+vti_charset:SR|utf-8
+vti_backlinkinfo:VX|

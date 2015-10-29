@@ -1,0 +1,781 @@
+﻿/*
+Theme Name: J&F
+Theme URI: http://jafnet.co.jp
+Description: J&F template
+Author: Alberto
+Version: 1.0
+License: GNU General Public License
+License URI: General Public License
+License: GNU General Public License
+License URI: license.txt
+Tags: custom-menu
+*/
+
+/*Fonts*/
+@font-face {
+	font-family: "Kozuka";
+	src: url("kozuka.otf");
+}
+
+*{margin: 0px; padding: 0px;}
+
+html,body{
+	margin:0px;
+	height:100%;
+}
+
+body {
+	margin: 0px; /*緊貼頂部(上下左右)，沒有空content隙*/
+	background-color:#eeeeee;
+}
+
+a:visited{
+	color: #FFFFFF;
+}
+
+p { line-height:10px} 
+
+.inline_left{
+	         float:left;
+             background-color:#ce492a;
+} 
+
+a:link{
+	text-decoration: none;
+	color: #FFFFFF; 
+}
+
+ol{
+	margin-left: 20px;
+	font-size: 14px;
+	font-family: Kozuka;
+}
+
+ol p {
+	font-size: 12px;
+	line-height: 15pt;
+}
+
+.inline_right{
+	          float:right;
+              background-color:#1b3645;
+} 
+
+.left_news_title{
+	height: 40px;
+	width: 33%;
+	border: none;
+	font-family: "小塚ゴシック Pr6N R", Arial;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	background-color: #1b3645;
+	line-height: 40px;
+	padding: 0px 0px 0px 10px;
+	border-spacing: 0px;
+}
+
+.center_news_title{
+	height: 40px;
+	width: 33%;
+	border: none;
+	font-family: "小塚ゴシック Pr6N R", Arial;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #1b3645;
+	line-height: 40px;
+	padding: 0px 0px 0px 10px;
+	border-spacing: 0px;
+}
+
+.right_news_title{
+	height: 40px;
+	width: 33%;
+	border: none;
+	font-family: Arial;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: right;
+	background-color: #1b3645;	
+	line-height:40px;
+	padding: 0px 10px 0px 0px;
+	border-spacing: 0px;
+}
+
+.news_title_td{
+	height: 25px;
+	border: none;
+	font-family: "小塚ゴシック Pr6N R", Arial;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	border-spacing: 0px;
+	padding-left: 10px;
+}
+
+.news_type{
+	height: 15px;
+	width: 70px;
+	border: none;
+	font-family: "小塚ゴシック Pr6N R", Arial;
+	font-size: 10px;
+	color: #FFFFFF;
+	background-color: #646464;
+	border-spacing: 0px;
+	padding-left: 10px;
+	border-radius: .25em .25em .25em .25em;
+	text-align: center;
+}
+
+.new_td_picture{
+	text-align: center;
+	width: 75px;
+	height: 75px;
+	overflow: hidden;
+	line-height: 2px;	/*For the vertical alignment of the picture*/
+	padding: 5px;
+}
+
+.new_picture{
+	width: 73px;
+	height: 73px;
+	object-fit: cover; /*Cut and center of the picture*/
+	border: 1px #afafaf solid;
+}
+
+.news_td{
+	height: 25px;
+	border: none;
+	font-family: "小塚ゴシック Pr6N R", Arial;
+	font-size: 12px;
+	background-color: #FFFFFF;
+	border-spacing: 0px;
+	padding-left: 10px;
+}
+
+.more{ 
+      height: 40px;
+	  width: 65px;
+	  border: 0px;
+	  font-family: "小塚ゴシック Pr6N R", Arial;
+	  color: #eee;
+	  line-height:40px;
+ 	  font-size: 14px; /*字體大小*/
+	  font-weight:800; /*字體粗細*/
+	  text-align: right;
+} 
+.title_left{ 
+	   height: 40px;
+	   width: 620px;
+	   border: 0px;
+	   font-family: "小塚ゴシック Pr6N R", Arial;
+	   color: #eee;
+	   line-height:40px;
+	   padding-left:10px;
+	   font-size: 14px; /*字體大小*/
+	   font-weight:800; /*字體粗細*/
+} 
+.title_right{ 
+	   height: 40px;
+	   width: 150px;
+	   border: 0px;
+	   font-family: "小塚ゴシック Pr6N R", Arial;
+	   color: #eee;
+	   line-height:40px;
+	   padding-left:10px;
+	   font-size: 14px; /*字體大小*/
+	   font-weight:800; /*字體粗細*/
+} 
+.contant_left{ 
+	   /*height: 325px;*/
+	   width: 100%;	/*730px*/
+	   border: 0px;
+	   background-color:#fff;
+}
+
+.table{
+    width: 100%;
+	font-family: Kozuka;
+	border: 0px;
+	background-color:#fff;
+	border-width: 0px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	border-collapse: collapse;
+}
+
+.pic_house{
+	padding-right: 8px;
+	text-align: center;
+}
+
+.table tr{
+	width: 100%;
+}
+
+.table_inside {
+	width: 100%;
+}
+
+.no_borders {
+	width: 100%;
+	border-width: 0px;
+	padding: 0px;
+	margin: 0px;
+	border-collapse: collapse;
+	border: none;
+}
+
+.tr_inside {
+	width: 100%;
+	background-color: #e6e6e6;
+}
+
+.table_inside {
+	border-radius: 3px;
+}
+
+.left_border {
+	border-left: 2px solid #FFFFFF;
+}
+
+.right_border {
+	border-right: 2px solid #FFFFFF;
+	width: 100%;
+}
+
+.title{
+	color:#202020;
+	float:left;
+	margin-top:8px;
+	margin-left: 10px;
+	margin-bottom:2px;
+	font-family: "MS UI Gothic";
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.bar_more{ 
+	width: 100px;
+	height: 25px;
+	float: right;
+	text-align: center;
+	margin-left: 10px;
+	font-size: 12px;
+	background-color: #646464;
+	color: #FFFFFF;
+	vertical-align: middle;
+	border-radius: 3px;
+}
+
+.plus{
+	vertical-align: middle;
+	padding-bottom: 1px;
+}
+
+.bar_title{ 
+	width: 65px;
+	height: 25px;
+	float:left;
+	margin-left: 5px;
+	background-color:#e6e6e6;
+	color:#202020;
+	font-size: 12px;
+	font-weight: bold;
+	line-height:25px;
+	padding-left: 5px;
+} 
+
+.bar_content{ 
+	height: 25px;
+	float:left;
+	background-color:#e6e6e6;
+	color:#202020;
+	font-size: 12px;
+	text-align: left;
+	line-height:25px;
+}
+
+#wrapper {
+	width: 1000px; /*寬度設定為1000px*/
+	margin: auto; /*版面居中對齊*/
+	border: 0px; /*網頁做外框的設定*/
+}
+
+#header {
+	height: 44px; /*30*/
+	/*text-align: right;*/
+	font-size: 0px; /*這邊設定之後,下面語法區換行但頁面不顯示*/
+	border: 0px;
+	background-color:#1b3645;
+	line-height: 6px;
+}
+
+#btn {
+      height: 70px; /*高度設定為70px*/
+      border: 0px;
+      font-size: 0px; /*這邊設定之後,下面語法區換行但頁面不顯示*/
+     }
+#btn a{width: 120px; height: 70px;}
+#slideshow {	/**/
+	height: 205px;
+	border: 0px;
+	position:relative;	/**/
+	        }
+#content_shutoken {
+		        height: 333px;
+				width: 750px;
+                margin: left;
+		        border: 0px;
+         }
+#content_others {
+		        height: 333px;
+				width: 750px;
+                margin: left;
+		        border: 0px;
+         }
+#content_contact {
+          padding: 30px; /*文字與#content間的內距*/
+          font-size: 14px; /*字體大小*/
+          line-height: 2em;   /*字體行間為兩個字距*/
+         }
+
+#logo {
+	width: 100%;	/*705*/
+	height: 50px;
+	background-color:#1b3645;
+	text-align: right;
+	float: left;
+	display: inline-block;
+}
+
+#footer-container {
+	width: 100%;	/*295*/
+	height: 50px;
+	font-family: "小塚ゴシック Pr6N R", Arial;
+	color: #FFF;
+	font-size: 10px; /*字體大小*/
+	word-wrap: break-word; 
+    word-break: normal; 
+	background-color:#1b3645;
+	text-align: left;
+	display: inline-block;
+	overflow: hidden;
+}
+
+#footer-main {
+	width: 510px;	/*295*/
+	height: 50px;
+	font-family: "小塚ゴシック Pr6N R", Arial;
+	color: #FFF;
+	font-size: 10px; /*字體大小*/
+	word-wrap: break-word; 
+    word-break: normal; 
+	background-color:#1b3645;
+	float: right;
+	display: inline-block;
+	text-indent:
+}
+
+#footer {
+	width: 510px;	/*295*/
+	height: 50px;
+	font-family: "小塚ゴシック Pr6N R", Arial;
+	color: #FFF;
+	font-size: 10px; /*字體大小*/
+	word-wrap: break-word; 
+    word-break: normal; 
+	background-color:#1b3645;
+	float: right;
+	display: inline-block;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+.footer-main p {
+	       margin:5px;
+	       font-family: Arial, Helvetica, sans-serif;
+          } 
+
+.footer p {
+	       margin:5px;
+	       font-family: Arial, Helvetica, sans-serif;
+          } 
+
+#titile_bar {  /*標題的DIV*/
+        font-size: 16px;
+        font-weight: bolder;
+        line-height: 3em;
+        color: #FFF;
+        background-image: url(images/bottom.jpg);
+        background-repeat: no-repeat;
+        text-align:center; /*居中對齊*/
+        }
+a img {
+	border: none;
+}	
+	#slideshow IMG {
+	    position:absolute;
+	    top:0;
+	    left:0;
+	    z-index:8;
+	    opacity:0.0;
+	}
+	
+	#slideshow IMG.active {
+	    z-index:10;
+	    opacity:1.0;
+	}
+	
+	#slideshow IMG.last-active {
+	    z-index:9;
+	}
+
+.top_btn{width: 120px; height: 70px;}
+
+/*Tabs design*/
+#container {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#container input {
+	height: 25px;
+	visibility: hidden;
+}
+
+#container label {
+ background: #CCCCCC; /*Background color tabs*/
+ color: #FFFFFF; /*Fore color tabs*/
+ cursor: pointer;
+ display: block;
+ float: left;
+ font-size: 14px;
+ height: 25px;
+ width: 128px;
+ vertical-align: middle;
+ text-align: center;
+ font-family: Kozuka;
+}
+
+#container input:hover + label {
+ background: #1b3645; /*Hover color tabs*/
+ color: #FFFFFF;
+}
+
+#container input:checked + label {
+	background: #1b3645; /*Active tab color*/
+	color: #FFFFFF;
+	position: relative;
+	z-index: 6;
+}
+
+#container_flows {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#container_flows input {
+	height: 25px;
+	visibility: hidden;
+}
+
+#container_flows label {
+ background: #CCCCCC; /*Background color tabs*/
+ color: #FFFFFF; /*Fore color tabs*/
+ cursor: pointer;
+ display: block;
+ float: left;
+ font-size: 14px;
+ height: 25px;
+ width: 128px;
+ vertical-align: middle;
+ text-align: center;
+ font-family: Kozuka;
+}
+
+#container_flows input:hover + label {
+ background: #1b3645; /*Hover color tabs*/
+ color: #FFFFFF;
+}
+
+#container_flows input:checked + label {
+ background: #1b3645; /*Active tab color*/
+ color: #FFFFFF;
+ position: relative;
+ z-index: 6;
+}
+
+#content {
+	background: #FFFFFF;
+	border-radius: .25em .25em .25em .25em;
+	min-height: 80%;
+	position: absolute;
+	width: 880px;
+	padding: 11px;
+	display: inline-block;
+}
+
+#content div {
+	opacity: 0;
+	position: absolute;
+	overflow: visible;
+}
+
+#content_flows {
+	background: #FFFFFF;
+	border-radius: .25em .25em .25em .25em;
+	min-height: 80%;
+	position: absolute;
+	width: 880px;
+	padding: 11px;
+	display: inline-block;
+}
+
+#content_flows div {
+	opacity: 0;
+	position: absolute;
+	overflow: visible;
+	/*z-index: -100;*/
+}
+
+#content_tab {
+	opacity: 1;	/*Opaco*/
+	/*z-index: 150;*/
+	background: #FFFFFF;
+	border-radius: .25em .25em .25em .25em;
+	min-height: 20em;
+	position: relative;
+	width: 100%;
+	z-index: 6;
+}
+
+#container input#tab-1:checked ~ #content #content-1,
+#container_flows input#tab-1-flows:checked ~ #content_flows #content-1-flows,
+#container input#tab-2:checked ~ #content #content-2,
+#container input#tab-3:checked ~ #content #content-3 {
+	opacity: 1;
+	/*z-index: 100;*/
+}
+
+#content-1 {
+	width: 95%;
+}
+
+#content-1 div {
+	opacity: 1;
+}
+
+#content-1-flows {
+	width: 95%;
+	margin-top: 21px;
+}
+
+#content-1-flows div {
+	opacity: 1;
+}
+
+#content-2 {
+	width: 95%;
+}
+
+#content-2 div {
+	opacity: 1;
+	/*z-index: 150;*/
+}
+
+#content-3 {
+	width: 95%;
+}
+
+#content-3 div {
+	opacity: 1;
+	/*z-index: 150;*/
+}
+/*End tabs design*/
+
+.empty {
+	width: 4px;
+	background-color: #EEEEEE;
+	float: left;
+	height: 25px;
+}
+
+.blue_bar {
+	background: #1b3645;
+	height: 3px;
+	border-width: 0px;
+	display: block;
+	margin-top: -2px;
+	z-index: 150;	/*I place this item in the top*/
+}
+
+.fore_red{
+	color: red;
+}
+
+.floatboth{
+	clear: both;
+}
+
+.about_left{ 
+	font-family: "Kozuka";
+	font-size: 12pt;
+	width: 130px;
+	min-height: 25px;
+	float: left;
+	margin-left: 5px;
+	background-color:#e6e6e6;
+	font-weight: bold;
+	line-height: 25px;
+	padding: 9px 9px 9px 9px;
+	text-align: left;
+}
+
+.about_right{ 
+	font-family: "Kozuka";
+	font-size: 12pt;
+	color: #505050;
+	min-height: 25px;
+	float: left;
+	background-color: #e6e6e6;
+	text-align: left;
+	line-height: 25px;
+	padding: 9px 9px 9px 9px;
+}
+
+.about_right p{
+	line-height: 15pt;
+}
+
+.details_image{
+	width: 433px;
+	height: 325px;
+	border: 1px #AFAFAF solid;
+}
+
+.details_title{
+	font-family: "MS Gothic";
+	font-size: 14pt;
+}
+
+.details_left{ 
+	font-family: "Kozuka";
+	font-size: 12pt;
+	width: 115px;
+	min-height: 25px;
+	float: left;
+	margin-left: 5px;
+	background-color:#e6e6e6;
+	font-weight: bold;
+	line-height: 25px;
+	text-align: left;
+}
+
+.details_right{
+	font-family: "Kozuka";
+	font-size: 12pt;
+	color: #505050;
+	min-height: 25px;
+	float: left;
+	background-color: #e6e6e6;
+	text-align: left;
+	line-height: 25px;
+}
+
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+
+.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+.image-gallery {margin: 0px 0px 25px 0px; display: none;}
+
+figure { 
+	width: 120px; 
+	float: left; 
+	margin: 0 20px 0 0; 
+	background: white;
+	border: 10px solid white; 
+	-webkit-box-shadow: 0 3px 10px #ccc; 
+	-moz-box-shadow: 0 3px 10px #ccc;
+	-webkit-transform: rotate(5deg); 
+	-moz-transform: rotate(5deg);
+	-webkit-transition: all 0.7s ease; 
+	-moz-transition: all 1s ease;
+	position: relative;
+	border-radius: .25em .25em .25em .25em;
+}
+
+figcaption {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px; 
+	font-family: "Kozuka";
+	text-align: center;
+}
+
+figure img { 
+  width: 100%; /* Scale down */
+}
+
+figure:hover {
+    -webkit-transform: rotate(-0deg); -moz-transform: rotate(0deg);
+    -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+}
+
+figure:focus {
+    outline: none;
+    -webkit-transform: rotate(-0deg) scale(1.0); -moz-transform: rotate(-1deg) scale(1.0);
+    -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+    z-index: 9999;
+}
+
+.main_picture {
+	width: 98%;	/*Yes, it is necessary...*/
+	float: left; 
+	margin: 0 20px 0 0; 
+	background: white;
+	border: 10px solid white;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-webkit-transition: all 0.0s ease; 
+	-moz-transition: all 0s ease;
+	-webkit-box-shadow: 0 3px 10px #ccc; 
+	-moz-box-shadow: 0 3px 10px #ccc;
+	position: relative;
+	text-align: center;
+}
+
+#txtMain {
+	border: 0px black none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px; 
+	font-family: "Kozuka";
+	background-color: transparent;
+	color: #000000;
+	text-align: center;
+	visibility: visible;
+}
+
+/*For showing the flags in the dropdown of qTranslate:*/
+#qtranslate-chooser li {
+    float: left;
+    margin-right: 4px ;
+}
+ 
+.qtrans_language_chooser .qtrans_flag {
+    height: 32px;
+    width: 32px;
+}

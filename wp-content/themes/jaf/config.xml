@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	galleryTitle="J&F Plaza"
+	showOpenButton="true"
+	showExpandButton="true"
+	useThumbDots="false"
+	showThumbsButton="true"
+	useFullscreenExpand="true"
+	thumbFrameColor="rgba(175,175,175,.5)"
+	indexPageName="details.php"
+
+>
+  <image imageURL="images/scotch-egg.jpg"
+	thumbURL="thumbs/scotch-egg.jpg"
+	linkURL="images/scotch-egg.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jafnote\Desktop\FeaturedContentSlider\images\scotch-egg.jpg">
+    <title><![CDATA[scotch-egg]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/tempphoto-1.jpg"
+	thumbURL="thumbs/tempphoto-1.jpg"
+	linkURL="images/tempphoto-1.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jafnote\Desktop\FeaturedContentSlider\images\tempphoto-1.jpg">
+    <title><![CDATA[tempphoto-1]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/tempphoto-1thumb.jpg"
+	thumbURL="thumbs/tempphoto-1thumb.jpg"
+	linkURL="images/tempphoto-1thumb.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jafnote\Desktop\FeaturedContentSlider\images\tempphoto-1thumb.jpg">
+    <title><![CDATA[tempphoto-1thumb]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/tempphoto-2.jpg"
+	thumbURL="thumbs/tempphoto-2.jpg"
+	linkURL="images/tempphoto-2.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jafnote\Desktop\FeaturedContentSlider\images\tempphoto-2.jpg">
+    <title><![CDATA[tempphoto-2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/tempphoto-2thumb.jpg"
+	thumbURL="thumbs/tempphoto-2thumb.jpg"
+	linkURL="images/tempphoto-2thumb.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jafnote\Desktop\FeaturedContentSlider\images\tempphoto-2thumb.jpg">
+    <title><![CDATA[tempphoto-2thumb]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/tempphoto-3.jpg"
+	thumbURL="thumbs/tempphoto-3.jpg"
+	linkURL="images/tempphoto-3.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jafnote\Desktop\FeaturedContentSlider\images\tempphoto-3.jpg">
+    <title><![CDATA[tempphoto-3]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/tempphoto-3thumb.jpg"
+	thumbURL="thumbs/tempphoto-3thumb.jpg"
+	linkURL="images/tempphoto-3thumb.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jafnote\Desktop\FeaturedContentSlider\images\tempphoto-3thumb.jpg">
+    <title><![CDATA[tempphoto-3thumb]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/tempphoto-4.jpg"
+	thumbURL="thumbs/tempphoto-4.jpg"
+	linkURL="images/tempphoto-4.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jafnote\Desktop\FeaturedContentSlider\images\tempphoto-4.jpg">
+    <title><![CDATA[tempphoto-4]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/tempphoto-4thumb.jpg"
+	thumbURL="thumbs/tempphoto-4thumb.jpg"
+	linkURL="images/tempphoto-4thumb.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jafnote\Desktop\FeaturedContentSlider\images\tempphoto-4thumb.jpg">
+    <title><![CDATA[tempphoto-4thumb]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/tempphoto-5.jpg"
+	thumbURL="thumbs/tempphoto-5.jpg"
+	linkURL="images/tempphoto-5.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jafnote\Desktop\FeaturedContentSlider\images\tempphoto-5.jpg">
+    <title><![CDATA[tempphoto-5]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/tempphoto-5thumb.jpg"
+	thumbURL="thumbs/tempphoto-5thumb.jpg"
+	linkURL="images/tempphoto-5thumb.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jafnote\Desktop\FeaturedContentSlider\images\tempphoto-5thumb.jpg">
+    <title><![CDATA[tempphoto-5thumb]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/tempphoto-6.jpg"
+	thumbURL="thumbs/tempphoto-6.jpg"
+	linkURL="images/tempphoto-6.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jafnote\Desktop\FeaturedContentSlider\images\tempphoto-6.jpg">
+    <title><![CDATA[tempphoto-6]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/tempphoto-6thumb.jpg"
+	thumbURL="thumbs/tempphoto-6thumb.jpg"
+	linkURL="images/tempphoto-6thumb.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jafnote\Desktop\FeaturedContentSlider\images\tempphoto-6thumb.jpg">
+    <title><![CDATA[tempphoto-6thumb]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/thumb-author.jpg"
+	thumbURL="thumbs/thumb-author.jpg"
+	linkURL="images/thumb-author.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jafnote\Desktop\FeaturedContentSlider\images\thumb-author.jpg">
+    <title><![CDATA[thumb-author]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/thumb-video-1.jpg"
+	thumbURL="thumbs/thumb-video-1.jpg"
+	linkURL="images/thumb-video-1.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jafnote\Desktop\FeaturedContentSlider\images\thumb-video-1.jpg">
+    <title><![CDATA[thumb-video-1]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/thumb-video-2.jpg"
+	thumbURL="thumbs/thumb-video-2.jpg"
+	linkURL="images/thumb-video-2.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jafnote\Desktop\FeaturedContentSlider\images\thumb-video-2.jpg">
+    <title><![CDATA[thumb-video-2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/thumb-video-3.jpg"
+	thumbURL="thumbs/thumb-video-3.jpg"
+	linkURL="images/thumb-video-3.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jafnote\Desktop\FeaturedContentSlider\images\thumb-video-3.jpg">
+    <title><![CDATA[thumb-video-3]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>
